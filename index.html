@@ -1,0 +1,131 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+	<title>Fitness App</title> 
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.css" />
+	<script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.js"></script>
+</head> 
+<body> 
+
+<div data-role="page" data-theme="a">
+
+	<div data-role="header">
+		<h1>Fitness App</h1>
+	</div><!-- /header -->
+
+	<div data-role="content">
+	  <img src="../../../Desktop/XkA6pnGc.jpeg" width="239" height="240" alt=""/>
+	  <p>"Pain is weakness leaving the body"</p>		
+	</div>
+	
+	<ul data-inset="true" data-role="listview" data-theme="b">
+		<li><a href="#workout">Workout</a></li>
+		<li><a href="#mobility">Mobility Videos</a></li>
+		<li><a href="#schedule">Schedule</a></li>
+		<li><a href="#contact">Contact Form</a></li>
+        <li><a href="#search">Search Form</a></li>
+	</ul><!-- /content -->
+	
+
+<div data-role="footer">
+		<h4>Fitness App 2017</h4>
+	</div><!-- /footer -->
+</div>
+<div id="workout" data-add-back-btn="true" data-role="page" data-theme="a">
+  <div data-role="header">
+    <h1>Your Workout</h1>
+  </div>
+  <div data-role="content">6 Week Program</div>
+  
+  
+  <div data-role="footer">
+    <h4>Fitness App 2017</h4>
+  </div>
+</div>
+<div id="mobility" data-add-back-btn="true" data-role="page" data-theme="a">
+  <div data-role="header">
+    <h1>Mobility Videos</h1>
+  </div>
+  <div data-role="content">Mobility Training</div>
+  <ul data-inset="true" data-role="listview" data-theme="b">
+  	<li><a href="#hips">Hips</a></li>
+  	<li><a href="#shoulder">Shoulders</a></li>
+  </ul>
+  
+  <div data-role="footer">
+    <h4>Fitness App 2017</h4>
+  </div>
+</div>
+<div id="schedule" data-add-back-btn="true" data-role="page" data-theme="a">
+  <div data-role="header">
+    <h1>Training Schedule</h1>
+  </div>
+  <div data-role="content">Weekly Training Days</div>
+  <div data-role="footer">
+    <h4>Fitness App 2017</h4>
+  </div>
+</div>
+<div id="contact" data-add-back-btn="true" data-role="page" data-theme="a">
+  <div data-role="header">
+    <h1>Contact Form</h1>
+  </div>
+  <div data-role="content">
+    <p>Email questions to fitnesscontact@test.com </p>
+    <p>Any changes for scheduled training request fill out form below</p>
+  </div>
+  <label for="textfield">Name:</label>
+  <input type="text" name="textfield" id="textfield">
+  <label for="tel">Contact Number:</label>
+  <input type="tel" name="tel" id="tel">
+  <label for="datetime">Date Time Requested:</label>
+  <input type="datetime" name="datetime" id="datetime">
+  <p></p>
+<input type="checkbox" name="checkbox" id="checkbox">
+  <label for="checkbox">Checkbox if you need an email confirmation </label>
+  <p></p>
+  <p></p>
+  <input type="submit" name="submit" id="submit" value="Submit">
+  <div data-role="footer">
+  <h4>Fitness App 2017</h4>
+ </div>
+</div>
+<div id="search" div data-add-back-btn="true" data-role="page" data-theme="a">
+  <div data-role="header" data-theme="a">
+    <h1>Search Form</h1>
+  </div>
+  <div data-role="search">
+   <form method="post" action="find.php">
+   <table width="400" border="0" cellspacing="1" cellpadding="2">
+   	<tr>
+   		<td width="100">First Name </td>
+   		<td><input name="fname" type="text" id="lname"></td>
+   	</tr>
+   	
+   	<tr>
+   		<td width="100">Last Name</td>
+   		<td><input name="lname" type="text" id="lname"</td>
+   	</tr>
+   	
+   	<tr>
+   		<td width="100"> </td>
+	   	<td>
+	   		<input name="find" type="submit" id="add" value="Find your contact">
+		</td>
+   	</tr>
+   	
+	</table>
+	</form>
+</div>
+  
+   
+  <div data-role="footer">
+    <h4>Fitness App 2017</h4>
+  </div>
+</div>
+<!-- /page -->
+
+
+</body>
+</html>
